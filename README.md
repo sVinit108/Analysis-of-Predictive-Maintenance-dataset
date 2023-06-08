@@ -19,11 +19,11 @@ non-failure and 1 for failure.
 
 #   Steps Followed
 1. Feature Engineering
-    - EDA (Numerical-Categorica variables separation & null-value containig feature detection, Feature's value distribution analysis, Missing value analysis, Outlier analysis, Feature relation study)
+    - EDA (Numerical-Categorical variables separation & null-value containig feature detection, Feature's value distribution analysis, Missing value analysis, Outlier analysis, Feature relation study)
     - Missing Values (None present)
     - Outliers handling (By replacing with 15 & 85 quartile value)
     - Encoding (Not required since all numerical varibles are present)
-    - Checeking if case of Anamoly Detection (This was done by checking wether the values of metrics are outliers in case of failed device)
+    - Checeking if case of Anamoly Detection (This was done by checking whether the values of metrics are outliers in case of failed device)
     - Scaling (Different Transformation techniques were applied & the best one was picked. Q-Q plots were also plotted.)
     - Imbalaced data checking
     
