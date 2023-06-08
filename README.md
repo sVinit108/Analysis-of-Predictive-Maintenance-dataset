@@ -1,15 +1,15 @@
 # Analysis-of-Predictive-Maintenance-dataset
 
-- Aart from building a prediction ML model, a detailed data analysis is done to get insightful information
+Apart from building a prediction ML model, a detailed data analysis is done to get insightful information
 from the dataset. All stages of ML life‑cycle (Feature engineering,
 Feature selection, Model creation, hyparameter tuning & Cross Validation) is
-performed on the dataset.
+performed on the dataset. <br>
 
 BACKGROUND:- A company has a fleet of devices transmitting daily
 sensor readings. They would like to create a predictive maintenance
 solution to proactively identify when maintenance should be
 performed. This approach promises cost savings over routine or time based preventive maintenance, because tasks are performed only when
-warranted. 
+warranted. <br>
 GOAL:- You are tasked with building a predictive model using machine
 learning to predict the probability of a device failure. When building
 this model, be sure to minimize false positives and false negatives. The
