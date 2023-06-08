@@ -28,7 +28,7 @@ non-failure and 1 for failure.
     - Imbalaced data checking
     
 2. Feature Selection
-    - Dropping feauteres with low variance
+    - Dropping features with low variance
     
 3. Model Creation
     - Random forest
