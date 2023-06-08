@@ -34,7 +34,7 @@ non-failure and 1 for failure.
     - Random forest
     - Gradient Boosting Algorithm
 
-4.Cross Validation
+4. Cross Validation
     - Using repeated train-test split
     
 5. Hyperparameter tuning
