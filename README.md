@@ -97,11 +97,8 @@ The following models were trained and evaluated:
 
 ## Project Context
 
-This project was developed as part of an **internal hackathon**.  
-I received **special appreciation from the instructor** for:
-- Clarity of explanation  
-- Depth of subject understanding  
-- Effectiveness in presenting data-driven insights  
+This project was developed as part of an **internal College hackathon**.  
+I received special appreciation from the instructor for Clarity of explanation and Depth of subject understanding  
 
 ---
 
