@@ -1,41 +1,122 @@
-# Analysis-of-Predictive-Maintenance-dataset
+# Analysis of Predictive Maintenance Dataset
 
-Apart from building a prediction ML model, a detailed data analysis is done to get insightful information
-from the dataset. All stages of ML life‑cycle (Feature engineering,
-Feature selection, Model creation, hyparameter tuning & Cross Validation) is
-performed on the dataset. <br>
+This project focuses on building a **predictive maintenance solution** using machine learning, supported by **in-depth exploratory data analysis (EDA)** and a complete ML lifecycle pipeline.
 
-BACKGROUND:- A company has a fleet of devices transmitting daily
-sensor readings. They would like to create a predictive maintenance
-solution to proactively identify when maintenance should be
-performed. This approach promises cost savings over routine or time based preventive maintenance, because tasks are performed only when
-warranted. <br>
+Beyond model building, the emphasis is on **extracting meaningful insights from sensor data** and making principled modeling decisions at each stage.
 
-GOAL:- You are tasked with building a predictive model using machine
-learning to predict the probability of a device failure. When building
-this model, be sure to minimize false positives and false negatives. The
-column you are trying to Predict is called failure with binary value 0 for
-non-failure and 1 for failure. 
+---
 
-#   Steps Followed
-1. Feature Engineering
-    - EDA (Numerical-Categorical variables separation & null-value containig feature detection, Feature's value distribution analysis, Missing value analysis, Outlier analysis, Feature relation study)
-    - Missing Values (None present)
-    - Outliers handling (By replacing with 15 & 85 quartile value)
-    - Encoding (Not required since all numerical varibles are present)
-    - Checeking if case of Anamoly Detection (This was done by checking whether the values of metrics are outliers in case of failed device)
-    - Scaling (Different Transformation techniques were applied & the best one was picked. Q-Q plots were also plotted.)
-    - Imbalaced data checking
-    
-2. Feature Selection
-    - Dropping features with low variance
-    
-3. Model Creation
-    - Random forest
-    - Gradient Boosting Algorithm
+## Background
 
-4. Cross Validation
-    - Using repeated train-test split
-    
-5. Hyperparameter tuning
-    - RandomizedSearchCV
+A company operates a fleet of devices that transmit **daily sensor readings**.  
+The objective is to develop a predictive maintenance system that can **proactively identify potential device failures**, enabling maintenance to be performed **only when required**.
+
+This approach aims to reduce costs compared to routine or time-based preventive maintenance strategies.
+
+---
+
+## Goal
+
+To build a machine learning model that predicts the **probability of device failure**, where:
+
+- `0` → Non-failure  
+- `1` → Failure  
+
+Special care is taken to **minimize both false positives and false negatives**, as both have significant operational impact.
+
+---
+
+## Methodology
+
+The project follows all major stages of the **machine learning lifecycle**.
+
+### 1. Feature Engineering
+
+- **Exploratory Data Analysis (EDA):**
+  - Numerical vs categorical variable analysis  
+  - Missing value assessment  
+  - Feature distribution analysis  
+  - Outlier detection  
+  - Feature relationship study  
+
+- **Missing Values:**  
+  - No missing values present in the dataset  
+
+- **Outlier Handling:**  
+  - Outliers treated using **15th and 85th percentile capping**  
+
+- **Encoding:**  
+  - Not required (all features are numerical)  
+
+- **Anomaly Detection Check:**  
+  - Investigated whether failed devices exhibit anomalous sensor readings  
+
+- **Scaling:**  
+  - Multiple transformation techniques evaluated  
+  - Best transformation selected using **Q–Q plots**  
+
+- **Class Imbalance Analysis:**  
+  - Checked and accounted for imbalance in failure labels  
+
+---
+
+### 2. Feature Selection
+
+- Removed features with **low variance** to reduce noise and redundancy  
+
+---
+
+### 3. Model Development
+
+The following models were trained and evaluated:
+
+- Random Forest  
+- Gradient Boosting  
+
+---
+
+### 4. Cross Validation
+
+- Performance evaluated using **repeated train–test splits** to ensure robustness  
+
+---
+
+### 5. Hyperparameter Tuning
+
+- Hyperparameters optimized using **RandomizedSearchCV**  
+
+---
+
+## Results & Insights
+
+- Combined EDA and modeling provided strong intuition about **sensor behavior prior to failure**
+- Ensemble models performed better than simpler baselines
+- Proper preprocessing significantly improved model stability and generalization
+
+---
+
+## Project Context
+
+This project was developed as part of an **internal hackathon**.  
+I received **special appreciation from the instructor** for:
+- Clarity of explanation  
+- Depth of subject understanding  
+- Effectiveness in presenting data-driven insights  
+
+---
+
+## Tech Stack
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
+
+---
+
+## Author
+
+**Vinit Sharma**  
+M.Tech (AI & Data Science), VJTI Mumbai  
+GitHub: https://github.com/sVinit108
